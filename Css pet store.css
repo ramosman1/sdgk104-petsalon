@@ -1,0 +1,12 @@
+.product-info{
+    background-color: rgba(231, 164, 164, 0.89);
+    border: 1px solid black;
+    width:fit-content;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+span{
+    font-weight: bold;
+}
