@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+    <title>The Pet store</title>
+</head>
+<body>
+    <header>
+        <h1>The Pet store</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to the Pet store</h2>
+    
+    </main>
+
+    <footer>
+
+        <div class="container">
+            <div class="mb-3">
+                <label class="form-label">Name:</label>
+                <input class="form-control" type="text" placeholder="Enter pet's name:" id="txtName">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Age:</label>
+                <input type="number" placeholder="Enter pet's age:" id="txtAge">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">gender:</label>
+                <input type="text" placeholder="Enter pet's gender:" id="txtGender">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">breed:</label>
+                <input type="text" placeholder="Enter pet's breed:" id="txtBreed">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">service:</label>
+                <select class="form-select" id="selService">
+                    <option value="nails cut">Nails cut</option>
+                    <option value="grooming">Grooming</option>
+                    <option value="Vaccines">Vaccines</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label">Owner:</label>
+                <input type="text" placeholder="Enter pet's owner:" id="txtOwner">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Phone Number:</label>
+                <input type="text" placeholder="Enter owner's Phone:" id="txtPhone">
+            </div>
+
+            <div class="mb-3">
+                <button class="btn btn-primary" onclick="register();">Register</button>
+            </div>
+        </div>
+
+    </footer>
+
+
+    
+    <script src="./scripts/register.js"></script>
+    
+</body>
+</html>
